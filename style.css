@@ -84,7 +84,7 @@ span {
 
 /* desktop styles */
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 820px) {
     body {
         background-color: black;
     }

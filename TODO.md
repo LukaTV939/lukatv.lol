@@ -1,5 +1,6 @@
-- [ ] do mobile first media queries https://youtu.be/3VSo0Ey5Ow4
-- [ ] make silly queries :3
+- [x] do mobile first media queries https://youtu.be/3VSo0Ey5Ow4
+- [x] make silly queries :3
+- [ ] add image (impossible)
 - [ ] add link boxes to nesesary parts
 - [ ] ...even link the songs
 - [ ] make an embed for discord and similar

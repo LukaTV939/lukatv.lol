@@ -44,6 +44,17 @@ span {
     h1 span::before{
         content: "Hello mobile user, please rotate your screen. Thanks";
     }
+
+    img {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .container {
+        position: relative;
+    }
 }
 
 /* tablet styles ig */
@@ -85,10 +96,11 @@ span {
 /* desktop styles */
 
 @media screen and (min-width: 769px) {
+    
     body {
         background-color: black;
     }
-
+    
     h1 span::before{
         content: "";
         background-image: url(webpage.png);
@@ -98,4 +110,14 @@ span {
         border: 0px;
         min-height: auto;
     }
+
+    img {
+        visibility: visible;
+    }
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
 }

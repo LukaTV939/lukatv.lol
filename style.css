@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+
+* {
+    border: 0; box-sizing: border-box;
+}
+
+#container {
+    min-height: 100vh; 
+    width: 100%; max-width: 1200px; margin: 0 auto;
+    border: 4px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    /* background-color: rgba(30,30,30,.6); */ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 69px;
+    margin-left: 21px;
+    margin-right: 21px;
+    /* padding: 2rem; */
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* phone styles */
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: #000069;
+    }
+
+    h1 span::before{
+        content: "Hello mobile user, please rotate your screen. Thanks";
+    }
+}
+
+/* tablet styles ig */
+
+@media screen and (min-width: 700px) and (min-height: 210px) {
+    body {
+        background-color: #000096;
+    }
+
+    h1 span::before{
+        content: "Hello tablet user, please rotate your screen. Thanks (also I'm not centering this text, fuck you)";
+    }
+}
+
+/* wysi styles */
+
+@media (min-width: 727px) and (max-width: 727px) and (min-height: 211px) and (max-height: 211px) {
+    body {
+        background-color: black;
+    }
+
+    h1 span::before{
+        content: "WYSI";
+    }
+}
+
+/* tablet styles again */
+
+@media screen and (min-width: 728px) and (max-height: 212px) {
+    body {
+        background-color: #000096;
+    }
+
+    h1 span::before{
+        content: "Hello tablet user, please rotate your screen. Thanks (also I'm not centering this text, fuck you)";
+    }
+}
+
+/* desktop styles */
+
+@media screen and (min-width: 1100px) {
+    body {
+        background-color: black;
+    }
+
+    h1 span::before{
+        content: "";
+        background-image: url(webpage.png);
+    }
+
+    #container {
+        border: 0px;
+        min-height: auto;
+    }
+}

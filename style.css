@@ -79,6 +79,13 @@ span {
     h1 span::before{
         content: "WYSI";
     }
+
+    img {
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 
 /* tablet styles again */
@@ -116,8 +123,16 @@ span {
     }
     
 }
-
+/*
+.bg {
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    padding: 3rem;
+}
+*/
 img {
     width: 100%;
     height: auto;
+    object-fit: contain;
 }

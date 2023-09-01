@@ -18,13 +18,11 @@ body {
 }
 
 h1 {
-    /* background-color: rgba(30,30,30,.6); */
     align-items: center;
     text-align: center;
     margin-top: 69px;
     margin-left: 21px;
     margin-right: 21px;
-    /* padding: 2rem; */
 }
 
 span {

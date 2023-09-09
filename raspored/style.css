@@ -18,6 +18,7 @@ table {
 .raspored {
     border-collapse: collapse;
     width: auto;
+    margin-bottom: 21px;
 }
 
 .praksa {

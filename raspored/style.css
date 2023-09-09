@@ -1,0 +1,30 @@
+body {
+    font-family: Calibri;
+}
+
+p {
+    margin: 0%;
+    text-align: center;
+    font-size: large;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.raspored {
+    border-collapse: collapse;
+    width: auto;
+}
+
+.praksa {
+    border-collapse: collapse;
+    width: 911px;
+}
+
+.tekst {
+    font-size: 30pt;
+}

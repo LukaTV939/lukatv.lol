@@ -28,4 +28,9 @@ table {
 
 .tekst {
     font-size: 30pt;
+    margin-top: 21px;
+}
+
+.praksa-tekst {
+    font-size: 21pt;
 }

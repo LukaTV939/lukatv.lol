@@ -974,8 +974,8 @@ button:hover,
 
 /* VRChat */
 .button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
+  color: #FFF;
+  background-color: #29d4fe;
   border: 1px solid black;
 }
 .button.button-vrchat:hover,

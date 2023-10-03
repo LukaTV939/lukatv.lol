@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        body {
+            font-family: Calibri;
+        }
+    </style>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Slike</title>
     </head>
     <body style="background-image: url(slike/slika1.jpg);">
+        <div>
         <h1>Rad sa slikama</h1>
         <p>Da bi slika bila prikazana kao deo veb strane, slike moraju biti u jednom od sledećih formata: gif, jpg (ili jpeg)
             i png. Ukoliko je slika u nekom drugom formatu npr. tiff, bmp... moraćete da je prevedete u neki od formata
@@ -14,5 +20,43 @@
             Pozadinske slike se dodaju pomoću CSS-a što će biti kasnije obrađeno. U principu pozadinsku sliku možete
             dodati i korišćenjem atributa u HTML-u. Iako se ovaj način zadavanja pozadinske slike u praksi ne koristi, biće
             objašnjen, a kada naučite CSS pozadinska slika se dodaje pomoću CSS-a.</p>
+            <img src="slike/pingvini.jpg" alt="pingvini">
+            <img src="slike/pingvini.jpg" alt="pingvini" width="200px">
+            <img src="slike/pingvini.jpg" alt="pingvini" width="50px">
+            <img src="slike/pingvini.jpg" alt="pingvini" width="21px">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div>
+            <img src="slike/pingvini2.jpg" align="left">
+            Sada ćemo videti<br>
+            kako se radi <br>
+            poravnanje slike <br>
+            sa leve strane,<br>
+            a da sav tekst<br>
+            koji pišemo bude<br>
+            sa njene desne strane.<br>
+            <p align="right">
+            <img src="slike/koala1.jpg" align="right"> 
+            Ako je tekst<br>
+            poravnata sa desne strane,<br>
+            Sada će slika biti<br>
+            a tekst koji pišemo<br>
+            će biti sa njene<br>
+            leve strane.<br>
+            duži od visine slike<br>
+            tada će se nadalje ispisivati<br>
+            ispod slike,<br>
+            poravnat sa desne strane.<br><br>
+            </p>
+            <p align="center">
+            <img src="slike/lale1.jpg">
+            <br>
+            Sada je tekst centriran<br>
+            i postavljen ispod slike.</p>
+        </div>
     </body>
 </html>

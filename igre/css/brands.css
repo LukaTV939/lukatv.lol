@@ -921,6 +921,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Trackmania Nations Forever */
+.button.button-tmnf {
+  color: #fff;
+  background-color: #088b3f;
+}
+.button.button-tmnf:hover,
+.button.button-tmnf:focus {
+  filter: brightness(90%);
+}
+
 /* Unsplash */
 .button.button-unsplash {
   color: #000000;

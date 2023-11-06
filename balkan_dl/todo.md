@@ -1,0 +1,4 @@
+- [ ] dodati slike
+- [ ] namestiti sub page-eve za svaku kategoriju
+- [ ] dodati svaki page za level i pre toga namestiti template za jedan level page
+- [ ] 

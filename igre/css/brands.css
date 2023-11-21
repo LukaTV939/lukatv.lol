@@ -838,6 +838,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Super Hexagon */
+.button.button-sh {
+  color: #ffffff;
+  background-color: #c8122c;
+}
+.button.button-sh:hover,
+.button.button-sh:focus {
+  filter: brightness(90%);
+}
+
 /* Telegram */
 .button.button-telegram {
   color: #ffffff;

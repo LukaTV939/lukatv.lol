@@ -88,7 +88,7 @@ span {
 
 /* tablet styles again */
 
-@media screen and (min-width: 728px) and (max-height: 212px) {
+@media screen and (min-width: 1000px) and (max-height: 212px) {
     body {
         background-color: #000096;
     }
@@ -100,7 +100,7 @@ span {
 
 /* desktop styles */
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1000px) {
     
     body {
         background-color: black;

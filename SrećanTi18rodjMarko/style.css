@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    color: white;
+}
+
+* {
+    border: 0; box-sizing: border-box;
+}
+
+#container {
+    min-height: 100vh; 
+    width: 100%; max-width: 1400px; margin: 0 auto;
+    border: 4px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* restrikcija za fon */
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: #000069;
+    }
+
+    h1 span::before{
+        content: "Otvori ovaj sajt kad dodješ kući 😉";
+    }
+    
+    .container {
+        position: static;
+    }
+}
+
+/* desktop styles */
+
+@media screen and (min-width: 1400px) {
+    
+    body {
+        background-color: black;
+    }
+    
+    h1 span::before{
+        content: "";
+        background-image: url(webpage.png);
+    }
+
+    #container {
+        border: 0px;
+        min-height: auto;
+    }
+
+    .center {
+        height: 939px;
+        position: relative;
+    }
+    
+    .center p {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: xx-large;
+    }
+}

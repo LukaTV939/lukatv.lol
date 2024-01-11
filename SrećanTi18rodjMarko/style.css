@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
     color: white;
+    background-color: black;
 }
 
 * {
@@ -37,63 +38,16 @@ span {
     align-items: center;
 }
 
-/* restrikcija za fon */
-
-@media screen and (min-width: 320px) {
-    body {
-        background-color: #000069;
-    }
-
-    h1 span::before{
-        content: "Otvori ovaj sajt kad dodješ kući 😉";
-    }
-    
-    .container {
-        position: static;
-    }
-
-    p {
-        visibility: hidden;
-    }
-
-    .center {
-        position: fixed;
-    }
+.center {
+    height: 939px;
+    position: relative;
 }
 
-/* desktop styles */
-
-@media screen and (min-width: 1400px) {
-    
-    body {
-        background-color: black;
-    }
-    
-    h1 span::before{
-        content: "";
-        background-image: url(webpage.png);
-    }
-
-    #container {
-        border: 0px;
-        min-height: auto;
-    }
-
-    .center {
-        height: 939px;
-        position: relative;
-    }
-    
-    .center p {
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: xx-large;
-    }
-
-    p {
-        visibility: visible;
-    }
+.center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
 }

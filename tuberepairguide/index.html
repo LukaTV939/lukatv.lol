@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://tuberepair.mali357.gay/guide/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>tuberepair guide</title>
+<link rel="icon" type="image/x-icon" href="https://tuberepair.mali357.gay/guide/assets/img/favicon.ico">
+
+<meta name="description" content="i hope to god children stop yapping after reading this">
+<link rel="stylesheet" href="./tuberepair guide_files/style.css">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+
+<body class="pinstripe">
+<panel>
+	<label>
+        <p>Hi</p>
+    </label>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/tuberepair.png" width="100" height="100"></p>
+                <p align="center"><strong>Welcome to TubeRepair</strong></p>
+                <p align="center">This guide covers everything on how to set up TubeRepair, and on how to handle error messages.</p>
+            </div>
+        </fieldset>
+</panel>
+<panel>
+	<label>
+        <p>Where to begin</p>
+    </label>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/youtube.png" width="80" height="80"></p>
+                <p align="center"><strong>What TubeRepair works with</strong></p>
+                <p align="center">TubeRepair works with the old YouTube app (The preinstalled one, from iPhoneOS 3-6.1.6) and the App Store application (Version 1.0-1.0.1 on iOS 4) and version 1.1.0-1.2.1 on iOS 5-10.</p>
+		<p align="center"><strong>I strongly recommend to use 1.1.0 on anything above iOS 4!</strong></p>
+                <p align="center">(iOS 3-4 may not work as of right now)</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/gonewithtubefixer.png" width="252" height="146"></p>
+                <p align="center"><strong>Uninstall TubeFixer!</strong></p>
+                <p align="center">It is required for you to uninstall TubeFixer when wanting to use this tweak, as both will interfere and that will cause issues.</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/Key_Large@2x.png" width="120" height="120"></p>
+                <p align="center"><strong>You need a Youtube Data API V3 key with TubeRepair</strong></p>
+                <p align="center">an API key is needed to fetch content from YouTube. If you ever used TubeFixer before, you can just re-use the key that you already have. If not, then creatre an API key.</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <a href="https://blog.hubspot.com/website/how-to-get-youtube-api-key">
+                <div>
+                    <div>
+                        <label>I don't know how to make an API key<br></label>
+                    </div>
+                </div>
+            </a>
+        </fieldset>
+        <br>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/cydia.png" width="80" height="80"></p>
+                <p align="center"><strong>Download the tweak from Cydia.</strong></p>
+                <p align="center">The tweak is hosted on <a href="http://cydia.mali357.gay/">my repository</a>. You need to download it from there to begin. (As a prerequisite you should have PreferenceLoader installed too.)</p>
+                <p align="center">The tweak's name is TubeRepair [BETA]</p>
+                <p align="center">(iOS 3-4 may not work as of right now)</p>
+            </div>
+        </fieldset>
+</panel>
+<panel>
+	<label>
+        <p>Setting the tweak up</p>
+    </label>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/bundle.png" width="256" height="53"></p>
+                <p align="center">After you installed the tweak, open settings and go to TubeRepair's preference pane.</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p align="center">You will see a lot of empty fields, those being the server URL endpoint field, API key field, and the API Key Request Header. (Reason why i implemented this is so you could connect to something like TubeFixer with this too (which uses the header X-TubeFixer-API-Key))</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/emptyurlfield.png" width="252" height="123"></p>
+                <p align="center">First option you should see is this. This is where you input the target URL for your server. You need to specify http/s here, and also depending on your configuration, add a "/" after your folder or link. An example would be "<strong>http://</strong>ax.init.mali357.gay/TubeRepair<strong>/</strong>".</p>
+                <p align="center"><strong>An occupied example should look like this</strong></p>
+                <p align="center"><img src="./tuberepair guide_files/occupiedurlfield.png" width="252" height="123"></p>
+                <p align="center">You should input "http://ax.init.mali357.gay/TubeRepair/" as of right now, it's the only public instance of TubeRepair hosted (even the one i, bag.xml use regularly).</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p align="center"><img src="./tuberepair guide_files/key.png" width="252" height="123"></p>
+                <p align="center">The next option is this, don't focus on the bottom input field as we will get to that later. You have to input your YouTube Data API V3 API Key here. I explained on how to obtain it above, if you already have it via something like TubeFixer or you generated one just paste it in.</p>
+                <p align="center"><img src="./tuberepair guide_files/header.png" width="252" height="123"></p>
+                <p align="center">Now to this, this is the API Key request header. This was made with backend flexibility in mind. What you have to do here is to input the header string that you also specified in the configuration of your backend, or to the backend you want to connect to. The default header is "<strong>X-TubeRepair-API-Key</strong>". Just use the default one if you don't know what you're doing.</p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <p align="center"><strong>You should be ready now!</strong></p>
+                <p align="" "center"="">Launch the app now and see if it works. The tweak should tell you when it doesn't.</p>
+            </div>
+        </fieldset>
+</panel>
+<panel>
+	<label>
+        <p>Handling of errors + how to</p>
+    </label>
+    <fieldset>
+        <div>
+            <p align="" "center"="">Unlike TubeFixer, depending on what error you encounter, or what you perhaps did wrong in the settings page, the tweak will display an alert when errors occur. Here are all possible error messages you can encounter, and here's how to deal with them.</p>
+        </div>
+    </fieldset>
+    <br>
+    <fieldset>
+        <div>
+            <p align="center"><img src="./tuberepair guide_files/unsupportedurl.png" width="213" height="106"></p>
+            <p align="center"><strong>unsupported URL</strong></p>
+            <p align="center">Malformed URL, go into settings and fix it. You most likely forgot to append <strong>http/s://</strong>. If it's still an issue then the server you are trying to connect to is incompatible with TubeRepair.</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <p align="center"><img src="./tuberepair guide_files/malformed.png" width="256" height="168"></p>
+            <p align="center"><strong>Invalid API Key</strong></p>
+            <p align="center">The API Key you typed in is invalid, or malformed. Please double-check the API Key field in settings, and make sure the key you used is actually valid.</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <p align="center"><img src="./tuberepair guide_files/quota.png" width="256" height="152"></p>
+            <p align="center"><strong>API Key Expired</strong></p>
+            <p align="center">First up, your key did NOT permanently expire, and you <strong>don't need a new key</strong>. Your Youtube Data API V3 key's daily qouta reached it's maximum rate and you need to wait a bit to use this API Key again.</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <p align="center"><img src="./tuberepair guide_files/assertionfailed.png" width="256" height="168"></p>
+            <p align="center"><strong>Missing Header</strong></p>
+            <p align="center">You are missing the API Key request header. If you want to specify a custom one, click <strong>Close</strong> and navigate to the TubeRepair settings to specify your custom one. If you don't know what you're doing press <strong>Set Default</strong> which will just set <strong>X-TubeRepair-API-key</strong> as your request header.</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <p align="center"><strong>Error loading<br>Tap to retry</strong></p>
+            <p align="center">Can be many things, either no Wi-Fi, serverside issue, or your custom URL being malformed, but the rest of the options being alright. Double check if you speficied "http://" or "https://", and if you added the "/" after TubeRepair.</p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <div>
+            <p align="center"><strong><img src="tuberepair guide_files/playbackerror.png" width="256"><br>Playback error</strong></p>
+            <p align="center">Playback errors are present because old iOS versions don't have modern certificates, which means you could only visit old sites with older certificate. To fix this, you'll need to install ISRG Root X1 CA certificate below (huge shoutout to InvoxiPlayGames for providing this).</p>
+        </div>
+    </fieldset>
+    <panel>
+        <fieldset>
+            <a href="ISRG2.pem">
+                <div>
+                    <div>
+                        <label>ISRG Root X1 CA (Let's Encrypt)<br></label>
+                    </div>
+                </div>
+            </a>
+        </fieldset>
+    </panel>
+</panel>
+<panel>
+    <label>
+        <p>alright that's it</p>
+    </label>
+    <fieldset>
+        <div>
+            <p>You reached the end of the guide. I hope everything worked for you.<br><strong>Enjoy the tweak!</strong></p>
+        </div>
+    </fieldset>
+    <fieldset>
+        <a href="https://tuberepair.mali357.gay/">
+            <div>
+                <div>
+                    <label>Return to main page</label>
+                </div>
+            </div>
+        </a>
+    </fieldset>
+    <fieldset>
+        <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://cydia.mali357.gay/">
+            <div>
+                <div>
+                    <label>Add Repo to cydia</label>
+                </div>
+            </div>
+        </a>
+    </fieldset>
+</panel>
+<br>
+
+</body></html>

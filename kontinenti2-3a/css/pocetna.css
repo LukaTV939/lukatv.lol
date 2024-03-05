@@ -1,7 +1,32 @@
-.prvi {
-
+h1 {
+	text-align: center;
+	color: darkblue;
+	text-decoration: underline;
 }
 
-.drugi {
-    
+#prvi {
+	font-size: 20px;
+	padding: 10px;
+	text-indent: 30px;
+	font-weight: bold;
+}
+
+#drugi {
+	font-size: 20px;
+	font-style: italic;
+	text-align: justify;
+	padding: 0px 650px 0px 20px;
+}
+
+a:link, a:visited {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: red;
+}
+
+ol {
+	padding-left: 0px;
 }

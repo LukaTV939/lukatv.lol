@@ -5,8 +5,8 @@
 <defs>
 <radialGradient id="paint0_radial_2_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(45 141) rotate(-94.2005) scale(129.175 120.175)">
 <stop stop-color="#FE72FF"/>
-<stop offset="0.313792" stop-color="#FE76FF"/>
-<stop offset="0.613051" stop-color="#2FB4FF"/>
+<stop offset="0.303638" stop-color="#FE76FF"/>
+<stop offset="0.65021" stop-color="#2FB4FF"/>
 <stop offset="1" stop-color="#2BB3FF"/>
 </radialGradient>
 <radialGradient id="paint1_radial_2_2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-20.7792 10.3642) rotate(78.6776) scale(57.5876 237.438)">

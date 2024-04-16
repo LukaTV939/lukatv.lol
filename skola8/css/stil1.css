@@ -1,0 +1,146 @@
+@font-face {
+    src: url("../font/script_font.otf");
+    font-family: "Scriptsf";
+}
+
+header {
+    background-image: url("../slike/pozadina.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: "Scriptsf";
+    color: white;
+    text-align: center;
+}
+
+#naslov {
+    position: relative;
+    top: 100px;
+}
+
+#inverzna {
+    transform: rotate(180deg);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: lightgreen;
+    color: green;
+}
+
+.biljke_omotac p {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.omotac {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: "Scriptf";
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0px;
+}
+
+#strelica {
+    width: 100px;
+}
+
+footer {
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.biljke_omotac {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.biljka {
+    box-sizing: border-box;
+    flex-basis: 30%;
+    padding: 10px;
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.biljka img {
+    width: 100%;
+}
+
+.biljka h4 {
+    font-size: 18px;
+    font-weight: 900;
+    font-family: sans-serif;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cena {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: orange;
+    float: right;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.informacije {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.informacije h4 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: orange;
+}
+
+.informacije p {
+    font-family: sans-serif;
+    font-size: 14px;
+}

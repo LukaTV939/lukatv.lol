@@ -144,3 +144,18 @@ footer p {
     font-family: sans-serif;
     font-size: 14px;
 }
+
+.kontakt {
+	max-width: auto;
+    margin: 0 auto;
+}
+
+.kontakt img {
+	width: 24px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.omotac p {
+	padding-top: 5px;
+}

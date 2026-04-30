@@ -9,3 +9,5 @@ Impossible tasks:
 
 - [ ] add link boxes to nesesary parts
 - [ ] ...even link the songs
+
+what the fuck was I even thinking
